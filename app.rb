@@ -9,7 +9,6 @@ class App < Sinatra::Base
   post '/food'  do
    "My name is #{params[:name]} ,Myfavorite food is: #{params[:name]}"
   end
-  # Add your post route and action below
 
 
 end
